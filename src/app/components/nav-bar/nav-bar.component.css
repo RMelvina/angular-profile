@@ -1,0 +1,14 @@
+nav{
+   background-color: #FDCF76;
+}
+.navbar-link{
+    color: #B16E4B;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 1.6rem;
+}
+a:hover{
+    color: white;
+}
+
+

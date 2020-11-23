@@ -1,0 +1,17 @@
+@import '../../../re_use/sections/sections.component.css';
+
+.displayC{
+  background-color: aquamarine;
+}
+.notDisplay{
+   display: none;
+   
+   
+   
+}
+.text-container{
+  
+  justify-content: center;
+  padding: 1rem;
+  
+}

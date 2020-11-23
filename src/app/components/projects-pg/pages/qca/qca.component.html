@@ -1,0 +1,81 @@
+<!-- <section class="container-fluid project-info-section">
+    <div class="container font-style font-size ">
+        <div class="row d-flex justify-content-center align-items-center " data-aos="fade-in">
+
+            <div class="col-12  project-heading-col d-flex flex-column justify-content-center text-center"
+                data-aos="fade-up">
+                <h2 class="pt-5 project-heading-font-size" data-aos="fade-up">{{title}}</h2>
+
+                <app-buttons 
+                [btnUrl]='btnUrl' 
+                [btnName]='btnName' 
+                [btnClass]='[btnSize, gitHub]'>
+                </app-buttons>
+              
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- <section class="container-fluid project-section-2">
+    <div class="container">
+        <div class="row project-row font-size">
+            <div class="col-lg-6 col-md-6 col-sm-9 text-sm-center col-12 pt-5 d-flex align-items-center"
+                data-aos="fade-up">
+                <p class="">
+                    {{text}}
+                </p>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-9 col-12 pt-5" data-aos="fade-down">
+                <p class="">
+                    <span class="underline">What I learned:</span>
+                </p>
+
+                <ul *ngFor="let line of lines">
+                    <li>{{line}}</li>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section> -->
+
+
+<app-sections
+[title]='title' 
+[btnName]='btnName' 
+[btnClass]="[gitHub, btnSize]" 
+[btnUrl]='btnUrl'
+[text]='text'
+[lines]='lines'
+[pArray]='pInfor'
+[textContainer]= "['col-lg-6 col-md-6 col-sm-9 text-sm-center col-12 pt-5 d-flex align-items-center']"
+[listContainer]="['col-lg-6 col-md-6 col-sm-9 col-12 pt-5']">
+</app-sections>
+
+<!-- <app-sections 
+    [showSection2]=true
+[showSection1]=false
+[showSection2]=false
+ *ngFor="let info of pInfor " 
+ [imgDesc]=info.desc 
+ [imgUrl]=info.imgUrl>
+</app-sections> -->
+
+<!-- [imgUrl]="pInforImg"
+[imgDesc]="pInforD" -->
+
+
+
+<!-- <app-sections 
+[text]='text' 
+[lines]='lines'
+[showSection1]=false
+[showSection2]=true>
+</app-sections> -->
+<!-- [showSection1]=true
+[showSection2]=false> -->

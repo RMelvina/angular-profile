@@ -1,0 +1,67 @@
+<section class="container-fluid project-section font-style" id="projects">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-12">
+
+
+                <div class="container" *ngFor="let project of projects ">
+                    <div class="row">
+                        <div class="col-12">
+                        <h1 class=" main-project-heading ">{{project.title}}</h1>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex  align-items-center">
+
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12 pb-5 d-flex  justify-content-center" *ngFor="let subProject of project.projects">
+                                <div class="project-container">
+                                    <div class="overlay">
+                                        <img src={{subProject.projectsImgUrl}} class="img-fluid project-img" alt="" />
+                                        <!-- <Imgs imgUrl={{subProject.projectsImgUrl}} /> -->
+                                        
+                                        <div class="project-heading-container">
+                            
+                                            <h4 class="project-heading">{{subProject.projectTitle}}</h4>
+                                        </div>
+                                        <div class="buttons-container">
+                            
+                                           <app-buttons 
+                                           [btnUrl]="subProject.btnVUrl"
+                                           [btnName]="subProject.btnVName"
+                                           [btnClass]="[btn,view]"
+                                           [target]="subProject.target">
+                                           </app-buttons>
+                                           
+                                           <app-buttons 
+                                            [btnUrl]="subProject.btnGUrl"
+                                            [btnName]="subProject.btnGName" 
+                                            [btnClass]="[btn,github]"
+                                            [target]="subProject.target">
+                                            </app-buttons>
+                                      
+                                       
+                                        </div>
+                            
+                                    </div>
+                                </div>
+                            </div>
+
+                      
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</section>

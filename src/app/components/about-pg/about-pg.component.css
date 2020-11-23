@@ -1,0 +1,67 @@
+.about-section {
+  background-color: #fcf0cf;
+  padding-bottom: 14rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+.img {
+  width: 100%;
+  border-radius: 50%;
+}
+.divider {
+  width: 4rem;
+  outline: 2px dashed orange;
+}
+/* --------------SKILLS SECTION----------------- */
+.skills-section {
+  height: fit-content;
+  margin-top: -12rem;
+}
+.skills-col-border {
+  background: linear-gradient(
+    rgba(243, 209, 220),
+    rgba(253, 207, 118),
+    rgba(243, 209, 220)
+  );
+  border: 1px solid orange;
+  display: flex;
+  height: 100%;
+}
+.skills-container {
+  padding: 4rem;
+  
+}
+.border-radius-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.border-radius-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.padding-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.col-container{
+     display: table;
+    width: 100%;
+}
+.container-1 {
+  
+   flex: 1;
+  padding: 16px;
+}
+.container-2 {
+  /* max-height: 100%; */
+  margin-top: 5rem;
+ 
+}
+
+/* --------------SKILLS SECTION END----------------- */
+/* --------------MEDIA QUERIES----------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .radius {
+    border-radius: 10px;
+  }
+}

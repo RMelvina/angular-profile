@@ -1,0 +1,51 @@
+@import '../sections/sections.component.css';
+@import '../../projects-pg/pages/weather/weather.component.css';
+
+.webPage-info-section{
+    height: fit-content;
+    max-width: 70rem;
+    
+    background-color: #fcf0cf;
+    border-radius: 10px;
+}   
+.webPage-info-col{
+   margin-top: 4rem;             
+}  
+
+/* .outter-line{
+    position: relative;
+}  
+
+.outter-line::before {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: -1.7rem;
+  left:4rem;
+  width: 100%;
+  width: 70% ;
+  height: 100%;
+  outline: 0.5rem dashed  rgba(243, 209, 220);
+  z-index: 1;
+  transition: all 1s ease-in-out;
+}
+.outter-line:hover:before {
+  top: 0;
+  left: 0;
+} */
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+
+  .webPage-info-section{
+      justify-content: center;
+
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 767px){
+
+  .webPage-info-section{
+      text-align: center;
+    
+  }
+}
+  

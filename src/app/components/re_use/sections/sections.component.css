@@ -1,0 +1,56 @@
+@import '../../projects-pg/pages/ca/ca.component.css';  
+    
+/* --------------PROJECTS INFOR SECTION----------------- */
+.display{
+  display: none;
+}
+.notDisplay{
+   display: none;
+   
+}
+.project-info-section {
+  background-color: #fcf0cf;
+  padding-bottom: 14rem;
+  height: 100vh;
+}
+.btn-size {
+  width: fit-content;
+  padding: 0 2rem;
+  font-size: 3rem;
+  margin-top: 3rem;
+  border: 3px dashed #f6a7c1;
+}
+.project-heading-font-size {
+  font-size: 4rem;
+}
+.project-heading-col {
+  min-height: 75vh;
+}
+.project-section-2 {
+  margin-top: -12rem;
+}
+.project-row {
+  border-radius: 1rem;
+  background: linear-gradient(
+    rgba(243, 209, 220),
+    rgba(253, 207, 118),
+    rgba(243, 209, 220)
+  );
+}
+.github-btn {
+  /* border-radius: 10px; 
+    color: orange;
+    font-size: 3rem;
+    padding: 1rem 5rem;
+    border: 1px dashed orange; */
+}
+.github-btn:hover {
+  background-color: orange;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.project-info-section-3 {
+  height: fit-content;
+} 
+
+/* --------------QUICK COACHING APP SECTION END----------------- */

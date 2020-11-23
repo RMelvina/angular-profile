@@ -1,0 +1,55 @@
+<section class="container-fluid  webPage-info-section">
+
+
+    <h1 class=" text-center pt-4">{{title}}</h1>
+
+    <div class="container">
+        <div class="row p-font-size">
+            <div class="col-lg-6 col-md-6 col-sm-6 webPage-info-col  d-flex align-items-center ">
+                <div>
+                    <div>
+                        <p>
+                            {{text}}
+                        </p>
+                    </div>
+                    <div>
+                       <app-buttons
+                       [btnUrl]='btnUrl'
+                       [btnName] = 'btnName'
+                       [btnClass]= 'btnClass'
+                       [target] = 'target'>
+
+                       </app-buttons>
+                    </div>
+
+                    <div>
+                        <h4 class="pt-5 pb-2">What I have Used:</h4>
+                        <ul *ngFor="let array of arrays">
+                            <h5>{{array}}</h5>
+                           
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 webPage-info-col mb-5 ">
+                <div class="outter-line">
+                    <app-img [imgSrc]="imgSrc" [imgStyle]='imgStyle'>
+                    </app-img>
+                </div>
+            </div>
+            <!-- <div class="col-12 p-font-size">
+                <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>React</li>
+                    <li>Javascript</li>
+                </ul>
+            </div> -->
+        </div>
+
+
+    </div>
+
+</section>

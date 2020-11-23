@@ -1,0 +1,24 @@
+
+<nav class="navbar navbar-expand-md ">
+    <!-- Brand -->
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" (click)="handleClick()" type="button" data-toggle="collapse"
+        data-target="#collapsibleNavbar">
+        <!-- <span class={{i}}></span> -->
+        <span class={{i}} class="font-color"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item" *ngFor="let navItem of name">
+                <a class="nav-link navbar-link" href={{navItem.url}}>
+                    {{navItem.title}}
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</nav>

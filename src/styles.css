@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,200&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  color: #b16e4b;
+  font-family: "Josefin Sans", sans-serif;
+  min-height: -webkit-fill-available;
+  background-color: #fdcf76;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+}        
+.font-color {
+  color: #b16e4b;
+}
+
+.font-size {
+  font-size: 2rem;
+}       
+.p-font-size{
+  font-size: 1.7rem;
+}  
+ 
+
+
+
+
+
+/* Media Quries */
+/* iPad Pro/ iPad */
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+} */
+
+/* Mobiles */
+/* @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .main-font-size-heading {
+    font-size: 4rem;
+  }
+} */
+
+/* Galaxy Fold */
+/* @media only screen and (min-width: 200px) and (max-width: 280px) {
+   .main-font-size-heading {
+    font-size: 4rem;
+    
+  }
+  
+} */

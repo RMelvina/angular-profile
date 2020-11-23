@@ -1,0 +1,79 @@
+<section class="container-fluid about-section" id="about">
+    <div class="container about-container mx-auto">
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-4 col-md-5 col-sm-6  mx-auto my-5">
+                <div class="profile-img-container text-center ">
+                    <img src={{img}} class="img-fluid img" />
+                </div>
+            </div>
+            <div class="col-12">
+                <p class=" font-size  text-center ">
+                    {{text}}
+                </p>
+                <hr class="divider" />
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+<section class="container-fluid skills-section" id="skills">
+    <div class="container">
+        <div class="row row-flex">
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center padding-0 padding" *ngFor="let array of s">
+
+                <div [ngClass]="array.cName">
+
+                    <div class="container skills-container font-style">
+
+                     
+                         
+                        <div class="col container-1">
+                            <h4>{{array.title}}</h4>
+                            <hr class="divider" />
+                            <div class="font-style" *ngFor="let skill of array.skills">
+                                <h5>{{skill}}</h5>
+                            </div>
+                        </div>
+
+                        <div class="col container container-2" *ngIf="array.title2">
+                            <h4>{{array.title2}}</h4>
+                            <hr class="divider" />
+                            <div class="font-style" *ngFor="let skill2 of array.skills2">
+                                <h5>{{skill2}}</h5>
+                            </div>
+                        </div>
+
+                    
+                    </div>
+                    <!-- <div class="container skills-container font-style">
+                        
+                        <div class="container">
+                            <h4>{{array.title}}</h4>
+                            <hr class="divider" />
+                            <div class="font-style" *ngFor="let skill of array.skills">
+                                <h5>{{skill}}</h5>
+                            </div>
+                        </div>
+
+                        <div class="container container-2" *ngIf="array.title2">
+                            <h4>{{array.title2}}</h4>
+                            <hr class="divider" />
+                            <div class="font-style" *ngFor="let skill2 of array.skills2">
+                                <h5>{{skill2}}</h5>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
