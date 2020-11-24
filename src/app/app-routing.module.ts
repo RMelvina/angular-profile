@@ -11,7 +11,7 @@ import { ProjectsPgComponent } from './components/projects-pg/projects-pg.compon
 
 const routes: Routes = [
   // {path:'', component: NavBarComponent},
-  { path: '404', component: HomePgComponent },
+  { path: '', component: HomePgComponent },
   { path: 'about', component: AboutPgComponent },
   { path: 'projects', component: ProjectsPgComponent },
   { path: 'qca', component: QCAComponent },
