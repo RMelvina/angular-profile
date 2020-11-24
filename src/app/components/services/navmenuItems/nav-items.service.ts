@@ -16,7 +16,7 @@ export class NavItemsService {
     this.navItems = [
       {
         title: 'Home',
-        url: 'angular-profile',
+        url: 'home',
         cName: 'nav-link',
       },
       {
