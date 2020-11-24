@@ -11,7 +11,7 @@ export class TextService {
            I am a graduate in Software and Web Development and am looking for
             job opportunity in Software Development. I am a good team player.
             problem solver and I like new challenges.
-            I would love to expend my current skills and learn new skills."`;
+            I would love to expend my current skills and learn new skills.`;
   }
   getProfileImg() {
     return 'assets/images/img_photo.jpeg';
